@@ -1,31 +1,27 @@
 {
-	"format_version": 2,
-	"header": {
-		"name": "Lucky Block V1.0.0",
-		"description": "Lucky Block But With Bed luck",
-		"min_engine_version": [
-			1,
-			21,
-			90
-		],
-		"uuid": "9df7b4c4-4c7e-4af5-acfd-9d77a1f2c5a6",
-		"version": "1.0.0"
-	},
-	"modules": [
-		{
-			"type": "resources",
-			"uuid": "99970dfc-1aec-4fd9-8a88-a455d927ebd9",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
-"dependencies": [
-  {
-    "uuid": "5d779b08-1d38-45da-9e75-6b6ce5183110",
-    "version": "1.0.0"
-  }
-]
+  "format_version": 2,
+  "header": {
+    "name": "Lucky Block V1.0.1",
+    "description": "Lucky Block But With Bed luck",
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ],
+    "uuid": "9df7b4c4-4c7e-4af5-acfd-9d77a1f2c5a6",
+    "version": "1.0.1"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "99970dfc-1aec-4fd9-8a88-a455d927ebd9",
+      "version": "1.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5d779b08-1d38-45da-9e75-6b6ce5183110",
+      "version": "1.0.1"
+    }
+  ]
 }

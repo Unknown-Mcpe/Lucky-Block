@@ -2,3 +2,5 @@
 
 
 tile.lucky_block:lucky_block.name=Lucky Block
+item.um:lootbag_basic = Lootbag Basic
+item.um:lootbag_ultimate = Lootbag Ultimate

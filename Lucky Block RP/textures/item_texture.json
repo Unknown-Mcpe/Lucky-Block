@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "Thinge",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "basic": {
+      "textures": "textures/items/lootbag/basic"
+    },
+    "ultimate": {
+      "textures": "textures/items/lootbag/ultimate"
+    }
+  }
+}

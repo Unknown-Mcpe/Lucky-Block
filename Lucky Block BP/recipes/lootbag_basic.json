@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "um:lootbag_basic"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#A#",
+      "BCB",
+      "BDB"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:string"
+      },
+      "A": {
+        "item": "minecraft:diamond"
+      },
+      "B": {
+        "item": "minecraft:leather"
+      },
+      "C": {
+        "item": "minecraft:emerald"
+      },
+      "D": {
+        "item": "minecraft:chest"
+      }
+    },
+    "result": {
+      "item": "um:lootbag_basic",
+      "count": 4
+    }
+  }
+}
