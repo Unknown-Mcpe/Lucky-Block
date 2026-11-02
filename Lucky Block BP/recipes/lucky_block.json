@@ -1,0 +1,22 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky_block:lucky_block"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["DDD", "DAD", "DDD"],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "lucky_block:lucky_block",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "lucky_block:lucky_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "lucky_block:lucky_block": {},
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.3
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "lucky_block"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"metadata": {
+    "product_type": "addon",
+    "authors": ["Unknwon Mcpe & Khushal"]
+  },
+	"header": {
+		"name": "Lucky Block V1.0.0",
+		"description": "Lucky Block But With Bed luck",
+		"min_engine_version": [
+			1,
+			21,
+			90
+		],
+		"uuid": "5d779b08-1d38-45da-9e75-6b6ce5183110",
+		"version": "1.0.0"
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fece7566-554a-4e8d-b3e3-aab9549c5caa",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "d40ca4a8-5d19-4142-a766-a3e61083e5fe",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+  {
+    "uuid": "9df7b4c4-4c7e-4af5-acfd-9d77a1f2c5a6", 
+    "version": "1.0.0"
+  },
+  {
+  "module_name": "@minecraft/server",
+  "version": "2.4.0"
+},
+    {
+      "version": "2.0.0",
+      "module_name": "@minecraft/server-ui"
+    }
+]
+}
