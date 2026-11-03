@@ -1,4 +1,7 @@
 {
+  "type": "module",
+  "name": "Lucky Block",
+  "version": "1.0.1",
   "devDependencies": {
     "@minecraft/server": "^2.10.0",
     "@minecraft/server-ui": "^2.2.0",
